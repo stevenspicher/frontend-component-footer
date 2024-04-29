@@ -60,6 +60,7 @@ class SiteFooter extends React.Component {
               alt={intl.formatMessage(messages['footer.logo.altText'])}
             />
           </a>
+          <p>Test</p>
           <div className="flex-grow-1" />
           {showLanguageSelector && (
             <LanguageSelector
